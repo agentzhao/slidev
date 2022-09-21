@@ -1,4 +1,4 @@
-# Slidev custom template
+# My slidev custom template
 
 To start the slide show:
 
@@ -8,8 +8,7 @@ To start the slide show:
 
 Edit the [slides.md](./slides.md) to see the changes.
 
-Learn more about Slidev on [documentations](https://sli.dev/).
+### Notes
 
-### Built-ins
-
-`https://github.com/slidevjs/slidev/tree/main/packages/client/builtin`
+- [Built-ins](https://github.com/slidevjs/slidev/tree/main/packages/client/builtin)
+- Connect phone to same network to use as remote control
