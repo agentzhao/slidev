@@ -6,6 +6,8 @@ services:
     build:
       context: ./
     volumes:
-      - "${PWD}:/slidev"
+      - .:/app
+      - /app/node_modules #empty mount to not overwrite node_modules
+      - $PWD/dist:/app/dist
     ports:
       - "3030:3030"

@@ -1,9 +1,15 @@
 FROM node:18-alpine3.15
 
-COPY entrypoint.sh /
+WORKDIR /app
 
-WORKDIR /slidev
+COPY package*.json ./
 
-RUN chmod +x /entrypoint.sh
+RUN npm install
 
-ENTRYPOINT [ "/entrypoint.sh" ]
+COPY . ./
+
+RUN chown -R node /app/node_modules
+
+USER node
+# start app
+CMD ["npx", "slidev", "--remote"]
