@@ -1,7 +1,7 @@
 version: "3.3"
 services:
   slidev:
-    image: "agentzhao/slidev:latest"
+    image: "slidev:latest"
     container_name: slidev
     build:
       context: ./

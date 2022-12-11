@@ -16,7 +16,7 @@ css: unocss
 Subtitle
 
 <div class="absolute bottom-10">
-  <h3>Hong Zhao 21/09/22</h3>
+  <h3>Hong Zhao dd/mm/yy</h3>
 </div>
 
 <div class="abs-br m-6 flex gap-2">
